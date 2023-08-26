@@ -1,0 +1,37 @@
+<?php
+
+namespace [namespace];
+
+use Wawans\LivewireSupport\Components\Table\Column;
+use Wawans\LivewireSupport\Components\Table\Table as Component;
+use Wawans\LivewireSupport\Concerns\WithForm;
+use Wawans\LivewireSupport\Contracts\Table\WithFilterComponent;
+use Wawans\LivewireSupport\Contracts\Table\WithHeaderComponent;
+use Wawans\LivewireSupport\Contracts\Table\WithTitleComponent;
+
+class [class] extends Component
+{
+    // use WithForm;
+
+    /**
+     * Table Query.
+     *
+     * @return \Illuminate\Database\Eloquent\Builder
+     */
+    public function query()
+    {
+        //
+    }
+
+    /**
+     * Table Columns.
+     *
+     * @return array<Column>
+     */
+    public function columns(): array
+    {
+        return [
+            //
+        ];
+    }
+}

@@ -1,0 +1,53 @@
+<?php
+
+namespace [namespace];
+
+use Wawans\LivewireSupport\Components\Form\Form as Component;
+
+class [class] extends Component
+{
+    /**
+     * Form rules.
+     *
+     * @return array
+     */
+    public function rules(): array
+    {
+        return [
+
+        ];
+    }
+
+    /**
+     * Get model value.
+     *
+     * @return
+     */
+    protected function getValue()
+    {
+
+    }
+
+    /**
+     * Create a new component instance.
+     *
+     */
+    public function mount()
+    {
+
+    }
+
+    /**
+     * Component form submit action.
+     *
+     */
+    public function submit()
+    {
+        ['form' => $input] = $this->validate();
+    }
+
+    public function render()
+    {
+        return view('[view]');
+    }
+}
