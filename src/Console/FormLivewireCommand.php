@@ -2,7 +2,7 @@
 
 namespace Wawans\LivewireSupport\Console;
 
-use Livewire\Commands\MakeLivewireCommand;
+use Livewire\Features\SupportConsoleCommands\Commands\MakeLivewireCommand;
 
 class FormLivewireCommand extends MakeLivewireCommand
 {
@@ -11,5 +11,5 @@ class FormLivewireCommand extends MakeLivewireCommand
      *
      * @var string
      */
-    protected $signature = 'livewire:form {name} {--force} {--inline} {--test} {--stub=livewire-form : If you have several stubs, stored in subfolders }';
+    protected $signature = 'livewire-support:form {name} {--force} {--inline} {--test} {--stub=livewire-form : If you have several stubs, stored in subfolders }';
 }

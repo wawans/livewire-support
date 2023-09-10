@@ -3,8 +3,8 @@
 namespace Wawans\LivewireSupport\Concerns;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
-use Lang;
-use Str;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Support\Str;
 
 trait WithForm
 {

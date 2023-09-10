@@ -3,7 +3,7 @@
 namespace Wawans\LivewireSupport\Console;
 
 use Illuminate\Routing\Console\ControllerMakeCommand;
-use Str;
+use Illuminate\Support\Str;
 
 class ControllerLivewireMakeCommand extends ControllerMakeCommand
 {
@@ -12,7 +12,7 @@ class ControllerLivewireMakeCommand extends ControllerMakeCommand
      *
      * @var string
      */
-    protected $name = 'livewire:controller';
+    protected $name = 'livewire-support:controller';
 
     /**
      * The name of the console command.
@@ -23,7 +23,7 @@ class ControllerLivewireMakeCommand extends ControllerMakeCommand
      *
      * @deprecated
      */
-    protected static $defaultName = 'livewire:controller';
+    protected static $defaultName = 'livewire-support:controller';
 
     /**
      * The console command description.

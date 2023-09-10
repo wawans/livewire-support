@@ -2,7 +2,7 @@
 
 namespace Wawans\LivewireSupport\Concerns;
 
-use Str;
+use Illuminate\Support\Str;
 
 /**
  * @mixin \Livewire\WithPagination

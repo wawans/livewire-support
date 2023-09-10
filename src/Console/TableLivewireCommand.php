@@ -2,7 +2,7 @@
 
 namespace Wawans\LivewireSupport\Console;
 
-use Livewire\Commands\MakeLivewireCommand;
+use Livewire\Features\SupportConsoleCommands\Commands\MakeLivewireCommand;
 
 class TableLivewireCommand extends MakeLivewireCommand
 {
@@ -11,5 +11,5 @@ class TableLivewireCommand extends MakeLivewireCommand
      *
      * @var string
      */
-    protected $signature = 'livewire:table {name} {--force} {--inline=true} {--test} {--stub=livewire-table : If you have several stubs, stored in subfolders }';
+    protected $signature = 'livewire-support:table {name} {--force} {--inline=true} {--test} {--stub=livewire-table : If you have several stubs, stored in subfolders }';
 }
